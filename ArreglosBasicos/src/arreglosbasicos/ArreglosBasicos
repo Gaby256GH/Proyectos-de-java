@@ -1,0 +1,38 @@
+
+package arreglosbasicos;
+import java.util.Scanner;
+public class ArreglosBasicos 
+{
+    public static void main(String[] args) 
+    {
+        //Declaracion de arreglos
+        int arreglo [] = new int [3];
+        //Inicializar el arreglo manual
+        arreglo[0] = 6;
+        arreglo[1] = 9;
+        arreglo[2] = 12;
+        
+        //Declarar arreglo e inicializarlo
+        int arregloDos [] = {6,9,12,15};    
+        String arregloTres[] = {"Hola","Mundo"};
+        char arregloCuatro[] = {'a','b','c','d'};
+        boolean arregloCinco[] = {true,true,false,true,false};
+        double arregloSeis[] = {8.5, 9.4567, 3.095, 67.3};
+        float arregloSiete[] = {0.3, 0.2};       
+        
+        //Conocer el tamaño de un arreglo
+        System.out.println("Tamaño de arreglo: "+arreglo.length);
+        System.out.println("Tamaño de arregloDos: "+arregloDos.length);
+        System.out.println("Tamaño de arregloTres: "+arregloTres.length);
+        System.out.println("Tamaño de arregloCuatro: "+arregloCuatro.length);
+        System.out.println("Tamaño de arregloCinco: "+arregloCinco.length);
+        System.out.println("Tamaño de arregloSeis: "+arregloSeis.length);
+        System.out.println("Tamaño de arregloSiete: "+arregloSiete.length);
+        
+        
+        
+        
+        
+    }
+    
+}
